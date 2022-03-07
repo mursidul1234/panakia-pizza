@@ -1,0 +1,358 @@
+/*
+author: md. mursadul islam;
+dhaka-1213 bangladesh
+mahirpur bochajong dinajpur.
+email: mursiduli287@gmail.com;
+website: eti.codeblock softwer limited;
+
+*/
+/*
+====index====
+1.fuces at
+2.facilitics 
+3.ante done
+4.dlondit 
+5placanal
+
+*/
+/*
+theme css
+*/
+/*
+global css
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background:#edeff1;
+	padding: 0px 0 100px;
+	
+}
+
+a.nav-link.js-scroll-trigger{
+	color: #31353e;
+	font-weight: 700;
+	margin: 0px 5px;
+}
+a.nav-link.js-scroll-trigger:hover{
+	background-color: #dd4b2b;
+	padding: 6px 32px;
+	color: #fff;
+	border-radius: 30px;
+	font-weight: 700;
+	margin: 0px 5px;
+}
+/*banner section*/
+.banner{
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:900px;
+	overflow: hidden;
+
+}
+.menu {
+    text-align: center;
+}
+.banner-contant{
+
+}
+.banner-contant h1{
+	color: white;
+	text-align: center;
+	margin-top: 200px;
+}
+.banner-contant h4{
+	color: white;
+	text-align: center;
+
+}
+.img-fluid img{
+
+}
+.subsandwich h1{
+	text-align: center;
+	color: white;
+
+} 
+.subsandwich p{
+	text-align: center;
+	color: white;
+
+}
+.cupcake h1{
+	text-align: center;
+	color: white;
+
+}
+.cupcake p{
+	text-align: center;
+	color: white;
+
+}
+.burger h1{
+	text-align: center;
+	color: white;
+
+}
+.burger p{
+	text-align: center;
+	color: white;
+
+}
+.foot-btn{
+	background: #FFF;
+    border: none;
+    color: black;
+    padding: 12px 52px;
+    border-radius: 44px;
+    text-transform: capitalize;
+    /* text-align: center; */
+    margin: auto;
+}
+.foot-btn:hover{
+	background: pink;
+	color: red;
+	transition: 0.1s;
+
+}
+/*news section*/
+.news{
+	background: #EEEFF1;
+	text-align: center;
+	padding: 60px 0px;
+}
+.news-btn{
+	padding: 13px 50px;
+    background: #fff;
+    border: hotpink;
+    border-radius: 42px;
+    text-transform: capitalize;!important	
+
+}
+.news-btn:hover{
+	background: hotpink;
+	color: red;
+}
+.burger-2 img{
+	max-width:100%;
+	height: auto;
+
+}
+.burger-2 h3{
+	text-align: center;
+	color: #303539;
+
+}
+.burger-2 p{
+	text-align: center;
+	color: #303539;
+
+}
+.burger-3 img{
+	max-width:100%;
+	height: auto;
+
+}
+.burger-3 h3{
+	text-align: center;
+	color: #303539;
+
+}
+.burger-3 p{
+	text-align: center;
+	color: #303539;
+
+}
+
+.cupcake-2 img{
+	max-width:100%;
+	height: auto;
+
+}
+.cupcake-2 h3{
+	text-align: center;
+	color: #303539;
+
+}
+.cupcake-2 p{
+	text-align: center;
+	color: #303539;
+
+}
+/*news latter*/
+.banner-2 img{
+	position: relative;
+
+}
+.banner-2-text{
+	position: absolute;
+    left: 576px;
+    bottom: 242px;
+    color: white;
+
+}
+.banner-2-text-p{
+	width: 83%;
+    font-size: 22px;
+    margin: auto;
+    position: absolute;
+    bottom: 52xp;
+    bottom: 138px;
+    left: 429px;
+    color: white;
+
+}
+.froms{
+
+}
+.log-in-from-1 {
+    position: absolute;
+    bottom: 103px;
+    padding: 10px 147px;
+    border-radius: 24px;
+    border: 1px solid white;
+    margin: -22px 414px;
+    background: transparent;
+}
+.log-in-from-2 {
+    position: absolute;
+    bottom: 81px;
+    background: white;
+    color: red;
+    border: none;
+    padding: 11px 42px;
+    border-radius: 34px;
+    margin: 0px 235px;
+}
+/*blandid section*/
+.pizza-text{
+	text-align: center;
+
+}
+.pizza-btn{
+	padding: 12px 50px;
+    border: navajowhite;
+    background: darkred;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 37px;
+
+}
+.pizza-text{
+	text-align: -webkit-match-parent;
+
+}
+.pizza-text-2{
+	text-align: -webkit-match-parent;
+}
+/*plan section*/
+.plan{
+	background:#d65d0e;
+	height:400px;
+
+}
+.plan-text p{
+	color: white;
+    width: 30%;
+    text-align: center;
+
+}
+/*panakia foot*/
+.panakeia-foot{
+	background-image: url('../img/banner2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.foot-text p{
+	color: white;
+    text-align: center;
+    padding: 110px;
+
+}
+.foot-text h4 {
+    text-align: center;
+    color: white;
+}
+.foot-text span{
+	color: red;
+    background: beige;
+}
+/*Responsive break points*/
+
+/*small devices (landsscape phones, 576px and up)*/
+@media(min-width:576px){
+	.banner{
+		height: 1352px;
+	}
+.banner-2 img {
+    position: relative;
+    width: 468px;
+    height: 443%;
+}
+.banner-2 img{
+    position: relative;
+    width: 554px;
+    height: 386%;
+}
+.log-in-from-1 {
+   
+    padding: 10px 104px;
+    margin: -269px 6px;
+   
+}
+.log-in-from-2 {
+   margin: -246px 301px;
+}
+
+}
+	
+
+/*medium devices (taplats, 768px and up)*/
+@media(min-width:768px){
+	.banner-2 img {
+    width: 727px;
+    height: 300%;
+}
+.log-in-from-2 {
+    margin: -246px -38px;
+}
+	
+}
+/*large devices(desktops, 992px and up)*/
+@media(min-width:992px){
+	.banner-2 img {
+    width: 959px;
+    height: 255%;
+}
+.log-in-from-2 {
+    margin: -249px -166px;
+	
+}
+/*E-large devices(large desktops, 1200px and up)*/
+@media(min-width: 1200px){
+	.banner-2 img {
+    width: 1157px;
+    height: 235%;
+}
+.log-in-from-1 {
+        margin: -217px 396px;
+}
+.log-in-from-2 {
+    margin: -195px 132px;
+}
+	
+}
+
+
+
+
+
+
+
+ 
+
+
